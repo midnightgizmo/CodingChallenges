@@ -9,8 +9,11 @@ namespace LeetCode
             //TrappingRainWater.TrappingRainWaterChallenge trappingRainWaterChallenge = new TrappingRainWater.TrappingRainWaterChallenge();
             //trappingRainWaterChallenge.SolveChallenge();
 
-            AddTwoNumbers.AddTwoNumbersChallenge addTwoNumbersChallenge = new AddTwoNumbers.AddTwoNumbersChallenge();
-            addTwoNumbersChallenge.SolveProblem();
+            //AddTwoNumbers.AddTwoNumbersChallenge addTwoNumbersChallenge = new AddTwoNumbers.AddTwoNumbersChallenge();
+            //addTwoNumbersChallenge.SolveProblem();
+
+            TwoSum.TwoSumChallenge twoSumChallenge = new TwoSum.TwoSumChallenge();
+            twoSumChallenge.TwoSum(new int[] { 1, 3, 4 }, 5);
         }
     }
 }
