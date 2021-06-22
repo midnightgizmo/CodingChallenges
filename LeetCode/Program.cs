@@ -6,7 +6,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TrappingRainWater.TrappingRainWaterChallenge trappingRainWaterChallenge = new TrappingRainWater.TrappingRainWaterChallenge();
+            trappingRainWaterChallenge.SolveChallenge();
         }
     }
 }
