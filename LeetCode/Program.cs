@@ -15,7 +15,10 @@ namespace LeetCode
             //TwoSum.TwoSumChallenge twoSumChallenge = new TwoSum.TwoSumChallenge();
             //twoSumChallenge.TwoSum(new int[] { 1, 3, 4 }, 5);
 
-            ContainerWithMostWater.ContainerWithMostWaterChallenge containerWithMostWaterChallenge = new ContainerWithMostWater.ContainerWithMostWaterChallenge();
+            //ContainerWithMostWater.ContainerWithMostWaterChallenge containerWithMostWaterChallenge = new ContainerWithMostWater.ContainerWithMostWaterChallenge();
+
+            PalindromeNumber.PalindromeNumberChallenge palindromeNumberChallenge = new PalindromeNumber.PalindromeNumberChallenge();
+            palindromeNumberChallenge.Solve();
 
         }
     }
