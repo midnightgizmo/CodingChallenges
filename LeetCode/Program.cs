@@ -17,8 +17,11 @@ namespace LeetCode
 
             //ContainerWithMostWater.ContainerWithMostWaterChallenge containerWithMostWaterChallenge = new ContainerWithMostWater.ContainerWithMostWaterChallenge();
 
-            PalindromeNumber.PalindromeNumberChallenge palindromeNumberChallenge = new PalindromeNumber.PalindromeNumberChallenge();
-            palindromeNumberChallenge.Solve();
+            //PalindromeNumber.PalindromeNumberChallenge palindromeNumberChallenge = new PalindromeNumber.PalindromeNumberChallenge();
+            //palindromeNumberChallenge.Solve();
+
+            ReverseInteger.ReverseIntegerChallenge reverseIntegerChallenge = new ReverseInteger.ReverseIntegerChallenge();
+            reverseIntegerChallenge.Solve();
 
         }
     }
