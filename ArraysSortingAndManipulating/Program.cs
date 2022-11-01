@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ArraysSortingAndManipulating.Challenges.FindAllPermutations;
+using System;
 
 namespace ArraysSortingAndManipulating
 {
@@ -19,6 +20,14 @@ namespace ArraysSortingAndManipulating
             // print the sorted numbers to the console
             foreach(int number in numbersToSort)
                 Console.WriteLine(number);
+
+            // Find all possible permutations for a given set of data.
+            // data must be a string seperated by a comma and each one must only be one char long.
+            Permutations permutations = new Permutations();
+            // each char must be one letter long and sperated by a comma
+            permutations.Initialize("A,B,C");
+            permutations.PrintAllPossiblePermutations();
+
 
 
             Console.WriteLine("press any key to exit");
